@@ -93,5 +93,13 @@ A comprehensive collaborative platform designed for teams to enhance communicati
 | POST   | `/api/chat/send`      | Send a new chat message.                 |
 
 
+## Environment Variables
+- Create a .env file in the backend directory and add the following variables:
+  ```makeafile
+  MONGO_URI=your_mongodb_connection_string
+  JWT_SECRET=your_jwt_secret
 
-
+##Testing
+To run tests, execute:
+```bash
+npm test

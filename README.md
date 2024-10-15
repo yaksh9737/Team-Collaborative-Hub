@@ -49,14 +49,24 @@ A comprehensive collaborative platform designed for teams to enhance communicati
    ```bash
    git clone https://github.com/yaksh9737/Team-Collaborative-Hub.git
 2. Navigate to the frontend directory:
+    ```bash
+    cd Team-Collaborative-Hub/frontend
 3. Install dependencies:
+     ```bash
+     npm install
 4. Start the frontend application:
-
+    ```bash
+    npm start
 ### Backend
 1. Navigate to the backend directory:
+    ```bash
+    cd Team-Collaborative-Hub/frontend
 2. Install dependencies:
+     ```bash
+     npm install
 3. Run the backend server:
-
+    ```bash
+    npm start
 ## API Endpoints
 
 ### User Authentication

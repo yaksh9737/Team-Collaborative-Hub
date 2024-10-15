@@ -59,3 +59,29 @@ A comprehensive collaborative platform designed for teams to enhance communicati
 
 ## API Endpoints
 
+### User Authentication
+
+| Method | Endpoint              | Description                        |
+|--------|----------------------|------------------------------------|
+| POST   | `/api/auth/register` | Register a new user.              |
+| POST   | `/api/auth/login`    | Log in a user.                    |
+
+### Task Management
+
+| Method | Endpoint             | Description                        |
+|--------|---------------------|------------------------------------|
+| GET    | `/api/tasks`        | Retrieve all tasks.               |
+| POST   | `/api/tasks`        | Create a new task.                |
+| PUT    | `/api/tasks/:id`    | Update a task by ID.              |
+| DELETE | `/api/tasks/:id`    | Delete a task by ID.              |
+
+### Chat Functionality
+
+| Method | Endpoint               | Description                              |
+|--------|-----------------------|------------------------------------------|
+| GET    | `/api/chat/messages`  | Retrieve chat messages.                  |
+| POST   | `/api/chat/send`      | Send a new chat message.                 |
+
+
+
+

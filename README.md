@@ -100,6 +100,7 @@ A comprehensive collaborative platform designed for teams to enhance communicati
   JWT_SECRET=your_jwt_secret
 
 ##Testing
+
 To run tests, execute:
 ```bash
 npm test

@@ -12,9 +12,8 @@ A comprehensive collaborative platform designed for teams to enhance communicati
   - [Backend](#backend)
 - [API Endpoints](#api-endpoints)
 - [Environment Variables](#environment-variables)
-- [Deployment](#deployment)
 - [Testing](#testing)
-- [License](#license)
+
 
 ---
 
@@ -99,7 +98,7 @@ A comprehensive collaborative platform designed for teams to enhance communicati
   MONGO_URI=your_mongodb_connection_string
   JWT_SECRET=your_jwt_secret
 
-##Testing
+## Testing
 
 To run tests, execute:
 ```bash
